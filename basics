@@ -1,0 +1,64 @@
+1. What is Application Security?
+An application is a program or software designed to perform specific tasks for users.
+
+Examples:
+   Mobile Apps: WhatsApp, Instagram.
+   Desktop Software: Microsoft Word, Adobe Photoshop.
+   Web Applications: Gmail, Amazon, YouTube.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Why Secure Applications?
+Applications handle sensitive data (e.g., passwords, credit card numbers).
+If not secured, they can be hacked, leading to:
+   Financial losses.
+   Data breaches.
+   Loss of trust.
+Example:
+Imagine a banking app. If a hacker exploits a security weakness, they could:
+   Steal customer money.
+   Access private data like account details.
+
+Application Security ensures that the app is protected from such threats.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2. What is a Web Application?
+Definition:
+A web application is a program that runs on a web server and is accessed through a browser.
+
+Common Examples:
+  Online shopping platforms like Amazon.
+  Social media sites like Facebook.
+  Email services like Gmail.
+
+Functions to Secure:
+
+Authentication: Ensuring only legitimate users can log in.
+Example: Logging into Gmail with a password and 2FA.
+
+Data Storage: Protecting sensitive data like payment information.
+Example: Credit card info on an e-commerce site.
+
+Input Handling: Preventing harmful input.
+Example: Preventing SQL Injection when entering usernames.
+
+Session Management: Keeping sessions secure from hijacking.
+Example: Securing a user’s session when shopping online.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Why Secure Web Applications?
+Web applications are accessible globally, making them a prime target for hackers.
+
+Example: If Amazon’s website is hacked, attackers could steal millions of users’ payment details.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3. What are Application Security Goals?
+The primary goals of application security can be explained using the CIA Triad:
+
+Confidentiality: Protect sensitive data from unauthorized access.
+Integrity: Ensure data is accurate and hasn’t been altered.
+Availability: Ensure the application is accessible when needed.
+
+Example:
+A ride-hailing app like Uber:
+Confidentiality:
+    Customer data (name, location, credit card) is encrypted.
+Integrity:
+    Ride prices and route information cannot be tampered with by hackers.
+Availability:
+    The app must be available during peak times without crashing.
